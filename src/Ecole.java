@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-
 public class Ecole {
     private ArrayList<Personne> ListP;
 
@@ -13,7 +11,7 @@ public class Ecole {
 
     public void listerPersonne(){
         for(Personne unePersonne : this.ListP) {
-            System.out.println(unePersonne.getDescription());
+            System.out.println(unePersonne.printDesc());
         }
     }
 }
