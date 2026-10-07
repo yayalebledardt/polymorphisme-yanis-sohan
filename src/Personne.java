@@ -15,5 +15,10 @@ public abstract class Personne {
         return nom + " " + prenom + ", " + age + " ans, " + email;
     }
 
+    public abstract String getRole();
+
+    public String printDesc() {
+        return getDescription() + " | " + getRole();
+    }
 
 }
